@@ -65,8 +65,8 @@ body {
   backdrop-filter: blur(18px);
   background: linear-gradient(
     to bottom,
-    rgba(248, 250, 252, 0.92),
-    rgba(248, 250, 252, 0.7),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255),
     transparent
   );
   border-bottom: 1px solid rgba(148, 163, 184, 0.18);
@@ -84,16 +84,6 @@ body {
   align-items: center;
   gap: 8px;
   text-decoration: none;
-}
-
-.brand-orb {
-  width: 26px;
-  height: 26px;
-  border-radius: 18px;
-  background: radial-gradient(circle at 25% 25%, #eff6ff 0, #2563eb 45%, #0ea5e9 90%);
-  box-shadow:
-    0 0 0 4px rgba(191, 219, 254, 0.6),
-    0 16px 30px rgba(37, 99, 235, 0.45);
 }
 
 .brand-text {
