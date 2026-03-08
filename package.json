@@ -1,0 +1,19 @@
+{
+  "name": "calmio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.18.2",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^2.3.0"
+  }
+}
