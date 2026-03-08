@@ -6,6 +6,13 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { getCurrentUser, signOut } from "@/lib/auth";
 
+<Image 
+  src="/CALMIO.png"
+  alt="Calmio Logo" 
+  width={32} 
+  height={32} 
+/>
+
 export default function Header() {
   const pathname = usePathname();
   const [user, setUser] = useState(null);
