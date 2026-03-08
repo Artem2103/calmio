@@ -29,7 +29,7 @@ export default function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <Link href="/" className="brand">
-          <span className="brand-orb"></span>
+          <Image src="/CALMIO.png" alt="Calmio Logo" width = {32} height={32}/>
           <span className="brand-text">Calmio</span>
         </Link>
 
