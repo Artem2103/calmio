@@ -6,12 +6,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { getCurrentUser, signOut } from "@/lib/auth";
 
-<Image 
-  src="/CALMIO.png"
-  alt="Calmio Logo" 
-  width={32} 
-  height={32} 
-/>
+
 
 export default function Header() {
   const pathname = usePathname();
@@ -37,7 +32,12 @@ export default function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <Link href="/" className="brand">
-          <Image src="/CALMIO.png" alt="Calmio Logo" width = {32} height={32}/>
+          <Image 
+            src="/calmioimg.png"
+            alt="Calmio Logo" 
+            width={32} 
+            height={32} 
+          />
           <span className="brand-text">Calmio</span>
         </Link>
 
