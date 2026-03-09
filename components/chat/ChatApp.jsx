@@ -157,7 +157,7 @@ export default function ChatApp() {
     startTransition(() => {
       setTimeout(async () => {
         setIsThinking(false);
-        const aiText = "I hear you. Take a breath — I'm here with you. Would you like to explore this feeling a little more, or would a short grounding exercise help right now?";
+        const aiText = "Update will be soon...";
         setMessages((prev) => [...prev, { id: Date.now() + 1, role: "ai", text: aiText }]);
         if (sessionId) {
           try { await saveMessage(sessionId, "assistant", aiText); }
