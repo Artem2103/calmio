@@ -14,6 +14,7 @@ export const LampContainer = ({ children, className }) => {
         position: "relative",
         display: "flex",
         minHeight: "100vh",
+        paddingBottom:"0",
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
@@ -43,7 +44,7 @@ export const LampContainer = ({ children, className }) => {
           whileInView={{ opacity: 1, width: "30rem" }}
           transition={{ delay: 0.3, duration: 0.8, ease: "easeInOut" }}
           style={{
-            backgroundImage: `conic-gradient(from 70deg at center top, #06b6d4, transparent, transparent)`,
+            backgroundImage: `conic-gradient(from 70deg at center top, #eab308, transparent, transparent)`,
             position: "absolute",
             inset: "auto",
             right: "50%",
@@ -72,7 +73,7 @@ export const LampContainer = ({ children, className }) => {
           whileInView={{ opacity: 1, width: "30rem" }}
           transition={{ delay: 0.3, duration: 0.8, ease: "easeInOut" }}
           style={{
-            backgroundImage: `conic-gradient(from 290deg at center top, transparent, transparent, #06b6d4)`,
+            backgroundImage: `conic-gradient(from 290deg at center top, transparent, transparent, #eab308)`,
             position: "absolute",
             inset: "auto",
             left: "50%",
@@ -109,7 +110,7 @@ export const LampContainer = ({ children, className }) => {
         <div style={{
           position: "absolute", inset: "auto", zIndex: 50, height: "9rem", width: "28rem",
           transform: "translateY(-50%)", borderRadius: "999px",
-          backgroundColor: "#06b6d4", opacity: 0.5, filter: "blur(48px)",
+          backgroundColor: "#eab308", opacity: 0.5, filter: "blur(48px)",
         }} />
 
         {/* Animated glow blob */}
@@ -120,7 +121,7 @@ export const LampContainer = ({ children, className }) => {
           style={{
             position: "absolute", inset: "auto", zIndex: 30, height: "9rem",
             transform: "translateY(-6rem)", borderRadius: "999px",
-            backgroundColor: "#22d3ee", filter: "blur(40px)",
+            backgroundColor: "#fbbf24", filter: "blur(40px)",
           }}
         />
 
@@ -131,7 +132,7 @@ export const LampContainer = ({ children, className }) => {
           transition={{ delay: 0.3, duration: 0.8, ease: "easeInOut" }}
           style={{
             position: "absolute", inset: "auto", zIndex: 50, height: "2px",
-            transform: "translateY(-7rem)", backgroundColor: "#22d3ee",
+            transform: "translateY(-7rem)", backgroundColor: "#fbbf24",
           }}
         />
 
@@ -145,7 +146,7 @@ export const LampContainer = ({ children, className }) => {
       {/* Children slot */}
       <div style={{
         position: "relative", zIndex: 50, display: "flex",
-        transform: "translateY(-20rem)", flexDirection: "column",
+        transform: "translateY(-14rem)", flexDirection: "column",
         alignItems: "center", padding: "0 1.25rem",
       }}>
         {children}

@@ -18,7 +18,7 @@ export default function HomePage() {
         <LampContainer>
           <p style={{
             fontSize: "0.8rem", textTransform: "uppercase", letterSpacing: "0.2em",
-            color: "#22d3ee", marginBottom: "1rem", fontWeight: 500,
+            color: "white", marginBottom: "1rem", fontWeight: 500,
           }}>
             Calmio · AI Psychologist
           </p>
